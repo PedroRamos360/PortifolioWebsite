@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Button } from 'react-bootstrap';
 import './index.css';
 
 export default class Home extends Component {
