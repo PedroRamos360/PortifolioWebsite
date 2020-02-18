@@ -16,3 +16,11 @@
     background-color: #2892D7;
     margin-left: 30px;
 }
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+p {
+    margin-bottom: 0px;
+}
