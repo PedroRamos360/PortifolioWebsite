@@ -17,7 +17,7 @@ export default class CustomNavbar extends Component {
                         </ul>
                         <ul className="Portfolio">
                             <NavItem>
-                                <Link to="/Portfolio">Portfolio</Link>
+                                <Link to="/Portfolio">Portfólio</Link>
                             </NavItem>
                         </ul>
                     </Nav>
