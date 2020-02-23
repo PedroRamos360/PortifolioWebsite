@@ -14,23 +14,29 @@ export default class Projects extends Component {
                 <Jumbotron>
                     <h2>Portfólio</h2>
                 </Jumbotron>
-                <header>
-                    <img src={Pong} alt={"PongImage"}/>
-                    <div className="repo-info">
-                        <p>Jogo Pong feito em python com modo singleplayer e multyplayer</p>
-                    </div>
-                </header>
-                <Button bsStyle="primary" href={'https://github.com/PedroRamos360/Pong'}>Acessar repositório no github</Button>
-                <header>
-                    <img src={TreinadorAritmetico} alt={"TreinadorAritmetico"}/>
-                    <div className="repo-info">
-                        <p>
-                            Programa que eu criei com python que tem como objetivo ajudar o usuário
-                            a melhorar suas habilidades aritméticas
-                        </p>
-                    </div>
-                </header>
-                <Button bsStyle="primary" href={'https://github.com/PedroRamos360/AritmeticTrainer'}>Acessar repositório no github</Button>
+                <li className="repo-item">
+                    <header>
+                        <img src={Pong} alt={"PongImage"}/>
+                        <div className="repo-info">
+                            <p>Jogo Pong feito em python com modo singleplayer e multyplayer</p>
+                        </div>
+                        <Button bsStyle="primary" href={'https://github.com/PedroRamos360/Pong'}>
+                        Acessar repositório no github
+                        </Button>
+                    </header>
+                    <header>
+                        <img src={TreinadorAritmetico} alt={"TreinadorAritmetico"}/>
+                        <div className="repo-info">
+                            <p>
+                                Programa que eu criei com python que tem como objetivo ajudar o usuário
+                                a melhorar suas habilidades aritméticas
+                            </p>
+                        </div>
+                        <Button className="btn" bsStyle="primary" href={'https://github.com/PedroRamos360/AritmeticTrainer'}>
+                        Acessar repositório no github
+                        </Button>
+                    </header>
+                </li>
             </div>
         )
     }

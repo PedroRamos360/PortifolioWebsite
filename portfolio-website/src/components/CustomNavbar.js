@@ -12,17 +12,17 @@ export default class CustomNavbar extends Component {
                         <Navbar.Brand id="brand">Pedro Ramos</Navbar.Brand>
                         <ul className="Home">
                             <NavItem>
-                                <Link to="/">Página Inicial</Link>
+                                <Link className="link" to="/">Página Inicial</Link>
                             </NavItem>
                         </ul>
                         <ul className="Portfolio">
                             <NavItem>
-                                <Link to="/Portfolio">Portfólio</Link>
+                                <Link className="link" to="/Portfolio">Portfólio</Link>
                             </NavItem>
                         </ul>
                         <ul className="Certificados">
                             <NavItem>
-                                <Link to="/Certificates">Certificados</Link>
+                                <Link className="link" to="/Certificates">Certificados</Link>
                             </NavItem>
                         </ul>
                     </Nav>

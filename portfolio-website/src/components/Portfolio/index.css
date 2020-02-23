@@ -1,8 +1,14 @@
 img {
-    width: 10%;
+    width: 20%;
     margin-left: 30px;
     margin-bottom: 10px;
     border-radius: 4px
+}
+
+li.repo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 div.repo-info {
@@ -19,4 +25,8 @@ div.repo-info {
     width: 100%;
     height: 100%;
     background-size: cover;
+}
+
+.btn {
+    margin-bottom: 10px;
 }
