@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button} from 'react-bootstrap';
+import { Jumbotron, Button, Image} from 'react-bootstrap';
 import './index.css';
 import CustomNavbar from "../CustomNavbar";
+import Background from "../assets/Background.jpg";
+
 
 export default class Home extends Component {
     render() {
         return(
             <>
+            <img className="background" src={Background} alt=""/> 
             <CustomNavbar />
             <Jumbotron>
                 <h2>Pedro Ramos</h2>

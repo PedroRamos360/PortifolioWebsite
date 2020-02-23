@@ -20,6 +20,11 @@ export default class CustomNavbar extends Component {
                                 <Link to="/Portfolio">Portfólio</Link>
                             </NavItem>
                         </ul>
+                        <ul className="Certificados">
+                            <NavItem>
+                                <Link to="/Certificates">Certificados</Link>
+                            </NavItem>
+                        </ul>
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Toggle />
