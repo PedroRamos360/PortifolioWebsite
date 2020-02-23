@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 import './index.css';
 import CustomNavbar from "../CustomNavbar";
-import Pong from "./Pong";
+import Pong from "./Pong.jpg";
 
 export default class Projects extends Component {
     render() {
@@ -14,12 +14,12 @@ export default class Projects extends Component {
                     <h2>Portfólio</h2>
                 </Jumbotron>
                 <header>
-                    <img src={Pong} alt={""}/>
+                    <img src={Pong} alt={"Pong Image"}/>
                     <div className="repo-info">
                         <p>Jogo Pong feito em python com modo singleplayer e multyplayer</p>
                     </div>
                 </header>
-                <Button bsStyle="primary" href={''}>Acessar repositório no github</Button>
+                <Button bsStyle="primary" href={'https://github.com/PedroRamos360/Pong'}>Acessar repositório no github</Button>
             </div>
         )
     }
