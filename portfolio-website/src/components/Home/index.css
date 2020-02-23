@@ -1,5 +1,18 @@
+body {
+    margin: 0px;
+}
+
 .jumbotron {
     margin-bottom: 2em;
+    background: none;
+}
+
+#background {
+    background-image: url("../assets/Background.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .profile-pic {
@@ -7,12 +20,6 @@
     margin-left: 30px;
     margin-bottom: 10px;
     border-radius: 4px
-}
-
-.background {
-    width: 100%;
-    position: absolute;
-    opacity: 0.6;
 }
 
 .btn-primary {
@@ -26,7 +33,9 @@
 h2 {
     margin-bottom: 20px;
     margin-top: 0px;
+    color: seashell
 }
 p {
     margin-bottom: 0px;
+    color: seashell
 }

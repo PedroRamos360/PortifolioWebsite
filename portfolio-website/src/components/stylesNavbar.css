@@ -1,8 +1,14 @@
 Nav {
-    background-color: #DCDCDC;
+    background: none;
+    color: seashell
+}
+
+#brand {
+    color: seashell;
 }
 
 ul {
     font-weight: bold;
     margin-top: 9px;
+    color: seashell
 }

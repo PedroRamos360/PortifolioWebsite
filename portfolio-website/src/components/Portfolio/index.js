@@ -8,7 +8,7 @@ import Pong from "../assets/Pong.jpg";
 export default class Projects extends Component {
     render() {
         return(
-            <div>
+            <div id="background">
                 <CustomNavbar />
                 <Jumbotron>
                     <h2>Portfólio</h2>

@@ -9,7 +9,7 @@ export default class CustomNavbar extends Component {
             <Navbar default collapseOnSelect>
                 <Navbar.Collapse>
                     <Nav>
-                        <Navbar.Brand>Pedro Ramos</Navbar.Brand>
+                        <Navbar.Brand id="brand">Pedro Ramos</Navbar.Brand>
                         <ul className="Home">
                             <NavItem>
                                 <Link to="/">Página Inicial</Link>

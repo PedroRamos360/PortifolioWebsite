@@ -6,12 +6,12 @@ import CustomNavbar from "../CustomNavbar";
 export default class Home extends Component {
     render() {
         return(
-            <>
-            <CustomNavbar />
-            <Jumbotron>
-                <h2>Certificados</h2>
-            </Jumbotron>
-            </>
+            <div id="background">
+                <CustomNavbar />
+                <Jumbotron>
+                    <h2>Certificados</h2>
+                </Jumbotron>
+            </div>
         )
     }
 }
