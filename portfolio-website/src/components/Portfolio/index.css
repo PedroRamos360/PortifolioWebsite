@@ -6,8 +6,8 @@ img {
 }
 
 li.repo-item {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
     align-items: center;
 }
 
@@ -19,14 +19,10 @@ div.repo-info {
     margin-bottom: 10px;
 }
 
-#background {
-    background-image: url("../assets/Background.jpg");
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-}
-
 .btn {
     margin-bottom: 10px;
+}
+
+.background {
+    background-color: #00BFFF;
 }

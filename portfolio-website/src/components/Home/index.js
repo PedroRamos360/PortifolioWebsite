@@ -6,7 +6,6 @@ import CustomNavbar from "../CustomNavbar";
 export default class Home extends Component {
     render() {
         return(
-            <>
             <div id="background">
                 <CustomNavbar />
                 <Jumbotron>
@@ -19,7 +18,6 @@ export default class Home extends Component {
                 </div>
                 <Button bsStyle="primary" href={"https://github.com/PedroRamos360"}>Acessar Perfil no Github</Button>
             </div>
-            </>
         )
     }
 }

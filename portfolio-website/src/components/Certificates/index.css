@@ -1,11 +1,3 @@
-#background {
-    background-image: url("../assets/Background.jpg");
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-}
-
 li.certificate-item {
     display: flex;
     flex-direction: row;
