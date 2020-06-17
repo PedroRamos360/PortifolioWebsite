@@ -1,0 +1,13 @@
+@media (max-width: 425px) {
+    .navbar ul {
+        font-size: small;
+    }
+
+    .navbar #brand {
+        font-size: small;
+    }
+
+    .profile-pic {
+        width: 30%;
+    }
+}
