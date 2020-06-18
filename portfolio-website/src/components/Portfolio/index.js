@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import { Link } from 'react-router-dom';
 import { Jumbotron, Button } from 'react-bootstrap';
 import './index.css';
+import './responsive.css';
 import CustomNavbar from "../CustomNavbar";
 
 import Pong from "../assets/Pong.jpg";
@@ -9,18 +10,20 @@ import TreinadorAritmetico from "../assets/TreinadorAritmetico.png";
 import BeTheHero from "../assets/BeTheHero.png";
 import ChestFounder from "../assets/ChestFounder.png";
 import DevRadar from "../assets/DevRadar.png";
+import Background from '../assets/Background.jpg';
 
 export default class Projects extends Component {
     render() {
         return(
-            <div id="background">
+            <div>
+                <img class="background-image" src={Background} alt="background"/>
                 <CustomNavbar />
                 <Jumbotron>
                     <h2>Portfólio</h2>
                 </Jumbotron>
                 <li className="repo-item">
                     <header>
-                        <img src={Pong} alt={"PongImage"}/>
+                        <img class="item-img" src={Pong} alt={"PongImage"}/>
                         <div className="repo-info">
                             <p>Jogo Pong feito em python com modo singleplayer e multyplayer</p>
                         </div>
@@ -29,7 +32,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header>
-                        <img src={TreinadorAritmetico} alt={"TreinadorAritmetico"}/>
+                        <img class="item-img" src={TreinadorAritmetico} alt={"TreinadorAritmetico"}/>
                         <div className="repo-info">
                             <p>
                                 Programa que eu criei com python que tem como objetivo ajudar o usuário
@@ -41,7 +44,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header>
-                        <img src={BeTheHero} alt={"BeTheHero"}/>
+                        <img class="item-img" src={BeTheHero} alt={"BeTheHero"}/>
                         <div className="repo-info">
                             <p>
                                 Be The Hero. Aplicação comercial que eu fiz durante a semana Omnistack 11.
@@ -54,7 +57,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header>
-                        <img src={ChestFounder} alt={"ChestFounder"}/>
+                        <img class="item-img" src={ChestFounder} alt={"ChestFounder"}/>
                         <div className="repo-info">
                             <p>
                                 Jogo que eu fiz programado em C# usando a plataforma da Unity para desenvolvimento de jogos
@@ -65,7 +68,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header>
-                        <img src={DevRadar} alt={"DevRadar"}/>
+                        <img class="item-img" src={DevRadar} alt={"DevRadar"}/>
                         <div className="repo-info">
                             <p>
                                 Dev Radar. Aplicação comercial que eu fiz durante a semana Omnistack 10.

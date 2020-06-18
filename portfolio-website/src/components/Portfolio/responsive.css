@@ -1,0 +1,17 @@
+@media (max-width: 590px) {
+    .repo-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar ul {
+        font-size: small;
+    }
+
+    .navbar #brand {
+        font-size: small;
+    }
+}
