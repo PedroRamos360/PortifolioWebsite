@@ -4,11 +4,19 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .btn {
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px) {
     .navbar ul {
         font-size: small;
+    }
+
+    .btn {
+        height: 100%;
     }
 
     .navbar #brand {
