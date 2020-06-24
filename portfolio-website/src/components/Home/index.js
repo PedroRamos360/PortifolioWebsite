@@ -18,7 +18,7 @@ export default class Home extends Component {
                 </Jumbotron>
                 <div class="profile">
                     <img className="profile-pic" src = {"https://avatars2.githubusercontent.com/u/53490820?s=460&v=4"} alt = ""/>
-                    <Button bsStyle="primary" href={"https://github.com/PedroRamos360"}>Acessar Perfil no Github</Button>
+                    <Button id="btn-primary" bsStyle="primary" href={"https://github.com/PedroRamos360"}>Acessar Perfil no Github</Button>
                 </div>
             </div>
         )

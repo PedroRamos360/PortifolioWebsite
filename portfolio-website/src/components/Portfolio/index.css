@@ -16,7 +16,7 @@
 
 .repo-item {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
@@ -28,6 +28,7 @@
 
 .btn {
     width: 80%;
+    border-width: medium;
     font-size: medium;
     display: flex;
     flex-direction: column;

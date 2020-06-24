@@ -2,20 +2,24 @@ import React, { Component } from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './index.css';
+import './responsive.css';
 import CustomNavbar from "../CustomNavbar";
+import Background from '../assets/Background.jpg';
 import Ingles from "../assets/CertificadoIngles.jpeg";
 
 export default class Home extends Component {
     render() {
         return(
-            <div id="background">
+            <div>
+                <img class="background-image" src={Background} alt="background"/>
                 <CustomNavbar />
                 <Jumbotron>
                     <h2>Certificados</h2>
                 </Jumbotron>
                 <li className="certificate-item">
                     <header>
-                        <img 
+                        <img
+                            className="certificate-img" 
                             src={"https://udemy-certificate.s3.amazonaws.com/image/UC-29f687eb-eb96-409e-824b-2e3211e6c895.jpg?l=null"} 
                             alt={""}
                         />
@@ -26,12 +30,12 @@ export default class Home extends Component {
                             </p>
                         </div>
                         <Button 
-                            bsSytle="primary" 
+                            id="btn-primary" 
                             href="https://www.udemy.com/certificate/UC-29f687eb-eb96-409e-824b-2e3211e6c895/"
                         >Certificado na Udemy</Button>
                     </header>
                     <header>
-                        <img src={Ingles} alt={"CertificadoIngles"}/>
+                        <img className="certificate-img" src={Ingles} alt={"CertificadoIngles"}/>
                         <div className="certificate-info">
                             <p>
                                 Certificado de Conclusão do Curso e Inglês: Touchstone 4 presencial
@@ -39,7 +43,7 @@ export default class Home extends Component {
                             </p>
                         </div>
                         <Link to="/Certificates/B1Certificate">
-                            <Button bsSytle="primary">Certificado</Button>
+                            <Button id="btn-primary" >Certificado</Button>
                         </Link>
                     </header>
                 </li>

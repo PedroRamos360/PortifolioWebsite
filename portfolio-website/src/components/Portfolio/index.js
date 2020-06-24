@@ -23,7 +23,7 @@ export default class Projects extends Component {
                 </Jumbotron>
                 <li className="repo-item">
                     <header class="item">
-                        <Button bsStyle="primary" href={'https://github.com/PedroRamos360/Pong'}>
+                        <Button className="btn" href={'https://github.com/PedroRamos360/Pong'}>
                             <img class="item-img" src={Pong} alt={"PongImage"}/>
                             <div className="repo-info">
                                 <p>Jogo Pong feito em python com modo singleplayer e multyplayer</p>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header class="item">
-                        <Button className="btn" bsStyle="primary" href={'https://github.com/PedroRamos360/AritmeticTrainer'}>
+                        <Button className="btn" href={'https://github.com/PedroRamos360/AritmeticTrainer'}>
                             <img class="item-img" src={TreinadorAritmetico} alt={"TreinadorAritmetico"}/>
                             <div className="repo-info">
                                 <p>
@@ -42,7 +42,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header class="item">
-                        <Button className="btn" bsStyle="primary" href={'https://github.com/PedroRamos360/BeTheHero-Omnistack11'}>
+                        <Button className="btn" href={'https://github.com/PedroRamos360/BeTheHero-Omnistack11'}>
                             <img class="item-img" src={BeTheHero} alt={"BeTheHero"}/>
                             <div className="repo-info">
                                 <p>
@@ -54,7 +54,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header class="item">
-                        <Button className="btn" bsStyle="primary" href={'https://github.com/PedroRamos360/ChestFounder'}>
+                        <Button className="btn" href={'https://github.com/PedroRamos360/ChestFounder'}>
                             <img class="item-img" src={ChestFounder} alt={"ChestFounder"}/>
                             <div className="repo-info">
                                 <p>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                         </Button>
                     </header>
                     <header class="item">
-                        <Button className="btn" bsStyle="primary" href={'https://github.com/PedroRamos360/DevRadar'}>
+                        <Button className="btn" href={'https://github.com/PedroRamos360/DevRadar'}>
                             <img class="item-img" src={DevRadar} alt={"DevRadar"}/>
                             <div className="repo-info">
                                 <p>

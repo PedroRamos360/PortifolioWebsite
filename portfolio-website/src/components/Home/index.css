@@ -37,8 +37,9 @@ p {
     margin-left: 30px;
 }
 
-.btn-primary {
+#btn-primary {
     width: 200px;
+    height: 100%;
     background-image: none;
     border: none;
     border-radius: 2;
