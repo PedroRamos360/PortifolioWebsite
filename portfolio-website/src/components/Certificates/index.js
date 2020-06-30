@@ -42,7 +42,7 @@ export default class Home extends Component {
                                 na OK Idiomas em Estrela RS. Equivale ao nível B1 de inglês.
                             </p>
                         </div>
-                        <Link to="/Certificates/B1Certificate">
+                        <Link to="/B1Certificate">
                             <Button id="btn-primary" >Certificado</Button>
                         </Link>
                     </header>
