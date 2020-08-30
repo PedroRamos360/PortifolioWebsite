@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     li.certificate-item {
         display: flex;
         flex-direction: column;
@@ -10,7 +10,7 @@
     .navbar ul {
         font-size: 11px;
     }
-    
+
     Nav {
         width: 0;
     }

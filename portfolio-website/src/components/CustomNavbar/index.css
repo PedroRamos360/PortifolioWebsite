@@ -1,0 +1,25 @@
+Nav {
+   background: none;
+}
+#brand {
+   color: #00FFFF;
+}
+.link {
+   color: #00FFFF;
+   cursor: pointer;
+   font-style: none;
+   font-weight: bold;
+   text-decoration: none;
+}
+.link:hover {
+   color: #03caca;
+   font-style: none;
+   text-decoration: none;
+}
+.link:active {
+   color: #04a0a0;
+}
+ul {
+   font-weight: bold;
+   margin-top: 9px;
+}

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 import './index.css';
 import './responsive.css';
-import CustomNavbar from "../CustomNavbar";
-import Background from '../assets/Background.jpg';
+import CustomNavbar from "../../components/CustomNavbar/index.js";
+import Background from '../../assets/Background.jpg';
 
 export default class Home extends Component {
     render() {
